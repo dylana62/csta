@@ -9,7 +9,9 @@
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #777777;
+  font-weight: 300;
 }
+
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #777777;
@@ -37,7 +39,7 @@
 }
 
 body {
-  color: #FFFFF0;
+  color: #777777;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -106,10 +108,6 @@ a, a:focus, a:hover {
   line-height: inherit;
 }
 
-.btn-lg {
-
-}
-
 .gray-bg {
   background: #f9f9ff;
 }
@@ -160,7 +158,6 @@ h6, .h6 {
 
 td, th {
   border-radius: 0px;
-  color: #FFFFF0;
 }
 
 /**
@@ -466,7 +463,7 @@ td, th {
 }
 
 .pt-150 {
-  padding-top: 0px;
+  padding-top: 150px;
 }
 
 .pb-0 {
