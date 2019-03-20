@@ -9,9 +9,7 @@
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #777777;
-  font-weight: 300;
 }
-
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #777777;
@@ -39,7 +37,7 @@
 }
 
 body {
-  color: #777777;
+  color: #FFFFF0;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -162,6 +160,7 @@ h6, .h6 {
 
 td, th {
   border-radius: 0px;
+  color: #FFFFF0;
 }
 
 /**
@@ -467,7 +466,7 @@ td, th {
 }
 
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 0px;
 }
 
 .pb-0 {
