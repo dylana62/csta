@@ -76,3 +76,10 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+
+## Customer requirements
+
+1. Change color
+2. Professional development with links
+3. Change about to "Why should I sign up"
+4. Logo
