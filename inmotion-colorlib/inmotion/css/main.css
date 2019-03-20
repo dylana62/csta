@@ -44,7 +44,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5em;
-  position: relative;
+  padding-left: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1913,13 +1913,14 @@ nav a:hover {
 }
 
 body {
-  background: #8dda06;
+  background: 	#FFFFF0;
 }
 
 .main-wrapper-first {
   width: 68.75%;
   margin: 0 auto;
   margin-top: 6rem;
+
 }
 
 @media (min-width: 1200px) {
