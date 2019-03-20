@@ -106,6 +106,10 @@ a, a:focus, a:hover {
   line-height: inherit;
 }
 
+.btn-lg {
+
+}
+
 .gray-bg {
   background: #f9f9ff;
 }
