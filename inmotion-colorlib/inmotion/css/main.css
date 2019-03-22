@@ -2287,7 +2287,7 @@ body {
   transform: scaleY(1);
 }
 
-.beginning-area {
+/*.beginning-area {
   background: #f9faff;
   position: relative;
 }
@@ -2333,7 +2333,7 @@ body {
 .beginning-area .begining-content a {
   font-weight: 500;
   text-transform: uppercase;
-}
+}*/
 
 .contact-area {
   background: #fff;
