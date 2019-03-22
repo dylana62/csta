@@ -45,15 +45,15 @@ npm test
 
 * 0.1.1 3-18-2019
     * Navbar, jumbotron
-      * ADD: signup buttons in Navbar
-      * CHANGE:  Background Photo in jumbotron
-      * CHANGE: Color Scheme to match customer requirements (blue/teal)
+      * CHANGE: call to action and description under
+      * ADD: Sign up button to replace video
 
 
 * 0.2.1 3-20-2019
     * Made changes based on CSR #1
-      *  ADD: Logo in left hand corner
-      *  CHANGE: Text under signup buttons
+      * ADD: Customer requirements
+      * CHANGE: Border/background color from green to blue
+      * CHANGE: Banner color to blue
 
 
 ## Meta
@@ -86,3 +86,12 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 2. Professional development with links
 3. Change about to "Why should I sign up"
 4. Logo
+
+3-22-19
+1. navbar shows up on large screens
+2. Change banner, larger text and background picture
+3. Resources link to csta Resources
+4. Professional dev link to csta website PD
+5. About (own page) with placeholder
+6. Fill whitespace
+7. Facebook & twitter link to csta fb and twitter 
