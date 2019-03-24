@@ -1861,8 +1861,10 @@ header {
   }
 }
 
-.menu-bar {
-  cursor: pointer;
+@media (max-width: 767px) {
+  .menu-bar {
+    cursor: pointer;
+  }
 }
 
 .menu-bar span {
@@ -1895,8 +1897,10 @@ nav {
   }
 }
 
-nav.hide {
-  transform: scale(0);
+@media (max-width: 767px) {
+  nav.hide {
+    transform: scale(0);
+  }
 }
 
 nav a {

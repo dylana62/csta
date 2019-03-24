@@ -363,8 +363,10 @@
 .lnr-cross:before {
 	content: "\e870";
 }
-.lnr-menu:before {
-	content: "\e871";
+@media (max-width: 767px) {
+	.lnr-menu:before {
+		content: "\e871";
+	}
 }
 .lnr-list:before {
 	content: "\e872";
