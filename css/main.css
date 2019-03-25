@@ -59,7 +59,7 @@ ol, ul {
 }
 
 select {
-  display: block;
+  display: inline;
 }
 
 figure {
@@ -178,7 +178,7 @@ td, th {
  */
 .clear::before, .clear::after {
   content: " ";
-  display: table;
+  display: inline;
 }
 
 .clear::after {
@@ -2008,7 +2008,7 @@ body {
   color: #8dda06;
   display: inline-block;
   font-weight: 500;
-  position: relative;
+  position: absolute;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2090,11 +2090,14 @@ body {
   margin-bottom: 20px;
   color: white;
   text-shadow: 0px 10px 11px rgba(102, 158, 2, 0.3);
+  display: inline;
+  z-index: 8;
 }
 .large-header {
    position: relative;
    width: 100%;
    background: #111;
+   background-color: transparent;
    overflow: hidden;
    background-size: cover;
    background-position: center center;
