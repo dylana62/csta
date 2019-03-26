@@ -62,7 +62,7 @@ Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@examp
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/dylana62/csta](https://github.com/dylana62/csta)
+[https://dylana62.github.io/csta/](https://dylana62.github.io/csta/)
 
 ## Contributing
 
