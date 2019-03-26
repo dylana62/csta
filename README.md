@@ -43,17 +43,22 @@ npm test
 
 ## Release History
 
-* 0.1.1 3-18-2019
+* 3-18-2019
     * Navbar, jumbotron
       * CHANGE: call to action and description under
       * ADD: Sign up button to replace video
 
 
-* 0.2.1 3-20-2019
+* 3-20-2019
     * Made changes based on CSR #1
       * ADD: Customer requirements
       * CHANGE: Border/background color from green to blue
       * CHANGE: Banner color to blue
+
+* 3-24-2019
+      * ADD: JS particle background to Banner
+      * CHANGE: Style and size of banner text
+      * CHANGE: Professional development link
 
 
 ## Meta
