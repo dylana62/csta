@@ -14,8 +14,8 @@ Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to 
   * modify newsletter section
   * possibly remove the testimonial area, or find a use for it and change it
   * add facebook icon
-  * remove orginal icons only leave desired remaining icons
-  * add sumary paragraph in navigation area
+  * remove original icons only leave desired remaining icons
+  * add summary paragraph in navigation area
 
 ## Release History
 
