@@ -1,3 +1,13 @@
+## Group Member Names
+Aidyn Morris and Dylan Armstrong
+## GitHub.io
+Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+
+Distributed under the XYZ license. See ``LICENSE`` for more information.
+
+[https://dylana62.github.io/csta/](https://dylana62.github.io/csta/)
+
+
 # credit and citation
 Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to create the interactive header background
 
@@ -12,20 +22,6 @@ Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to 
 One to two paragraph statement about your product and what it does.
 
 ![](header.png)
-
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
 
 ## Usage example modified
 
