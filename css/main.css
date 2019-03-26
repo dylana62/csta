@@ -799,10 +799,7 @@ h1, h2, h3, h4, h5, h6 {
 .button-area {
   background: #fff;
 }
-.button-area .border-top-resource {
-  padding: 70px 15px;
-  border-top: 1px dotted #eee;
-}.button-area .border-top-generic {
+.button-area .border-top-generic {
   padding: 70px 15px;
   border-top: 1px dotted #eee;
 }
@@ -1883,18 +1880,23 @@ header {
 }
 
 .main-menubar {
-  position: relative;
+  position: absolute;
+  right: 0%;
+  padding-right: 1%;
+  margin: 50px;
 }
 nav {
-  margin-right: 70px;
+  margin-right: 2px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   transform-origin: 100% 50%;
   position: absolute;
-  right: 10%;
+  left: 30%;
   display: inline;
+  text-align: right;
+  font-stretch: expanded;
 }
 
 @media (max-width: 767px) {
@@ -1918,7 +1920,6 @@ nav {
 }
 
 nav a {
-  right: 20%;
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1926,32 +1927,10 @@ nav a {
   display: inline;
   width: 500px;
 }
-#about{
-  position: absolute;
-  left: 500px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 20px;
-}
-#calendar{
-  position: relative;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 20px;
-}
-#resources{
-  position: absolute;
-  left: 10%;
-
-}
-#log-in{
-  position: absolute;
-right: 60%;
-}
 
 @media (max-width: 767px) {
   nav a {
-    margin: 5px 25px;
+    margin: 20px 25px;
   }
 }
 
