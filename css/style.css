@@ -55,7 +55,7 @@ canvas{
   left: 0;
   width: 80px;
   color: white;
-  font-size: 55px;
+  font-size: 60px;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -63,7 +63,7 @@ canvas{
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 	margin-top: 80px;
-	letter-spacing: 30px;
+	letter-spacing: 35px;
 }
 
 
@@ -89,11 +89,11 @@ canvas{
 #small{
 	  background-color: transparent;
 	  position: absolute;
-	  top: 48px;
+	  top: 75%;
 	  left: 0;
-	  width: 900px;
+	  width: 902px;
 	  color: white;
-	  font-size: 15px;
+	  font-size: 17px;
 	  text-align: left;
 	  line-height: 14px;
 	  padding-bottom: 40px;
