@@ -101,7 +101,15 @@ a, a:focus, a:hover {
   margin: 0;
   padding: 60px;
 }
+.pic{
+  /*position:absolute;*/
+  display: inline;
+  width: 40%;
+  height: auto;
+  margin: 0;
+  left: 10%;
 
+}
 /**
  *  Typography
  *
@@ -791,7 +799,6 @@ h1, h2, h3, h4, h5, h6 {
 .button-area {
   background: #fff;
 }
-
 .button-area .border-top-generic {
   padding: 70px 15px;
   border-top: 1px dotted #eee;
@@ -1873,15 +1880,23 @@ header {
 }
 
 .main-menubar {
-  position: relative;
+  position: absolute;
+  right: 0%;
+  padding-right: 1%;
+  margin: 50px;
 }
 nav {
-  margin-right: 70px;
+  margin-right: 2px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   transform-origin: 100% 50%;
+  position: absolute;
+  left: 30%;
+  display: inline;
+  text-align: right;
+  font-stretch: expanded;
 }
 
 @media (max-width: 767px) {
@@ -1894,6 +1909,7 @@ nav {
     padding: 20px 0;
     z-index: 5;
     background: #fff;
+    width: 700px;
   }
 }
 
@@ -1904,17 +1920,17 @@ nav {
 }
 
 nav a {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   color: #777777;
-  margin: 0 25px;
-  display: inline-block;
+  display: inline;
+  width: 500px;
 }
 
 @media (max-width: 767px) {
   nav a {
-    margin: 5px 25px;
+    margin: 20px 25px;
   }
 }
 
