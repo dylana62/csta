@@ -12,7 +12,7 @@ One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
-## Installatio
+## Installation
 
 OS X & Linux:
 
@@ -62,7 +62,7 @@ Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@examp
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/dylana62/csta](https://github.com/dylana62/csta)
 
 ## Contributing
 
@@ -94,4 +94,4 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 4. Professional dev link to csta website PD
 5. About (own page) with placeholder
 6. Fill whitespace
-7. Facebook & twitter link to csta fb and twitter 
+7. Facebook & twitter link to csta fb and twitter
