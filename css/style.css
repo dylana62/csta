@@ -102,16 +102,28 @@ canvas{
 		margin-top: 80px;
 		letter-spacing: normal;
 	}
+	.button-pos{
+		position: absolute;
+		bottom: 70%;
+		width: 1000px;
+		right:1000px;
+		left: 650px;
+	}
 	#sign_up
 	{
+		font-family: Helvetica, Arial, sans-serif;
 		position: absolute;
 		color: white;
-		border: solid white 10px;
+		border: solid white 8px;
 		background-color: transparent;
 		border-radius: 80px;
 		width: 450px;
 		height: 80px;
-		right: 5;
+		left: 50px;
+		top: 20px;
+	}
+	#font_white{
+		color: white;
 	}
 
 }

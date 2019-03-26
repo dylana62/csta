@@ -2106,6 +2106,7 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
   color: white;
+  width: 2000px;
   text-shadow: 0px 10px 11px rgba(102, 158, 2, 0.3);
   display: inline;
   z-index: 8;
