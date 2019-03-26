@@ -49,13 +49,13 @@ canvas{
 /* ---- stats.js ---- */
 
 .count-particles{
-  background: #000022;
+  background-color: transparent;
   position: absolute;
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
+  color: white;
+  font-size: 30px;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -79,6 +79,10 @@ canvas{
 
 .count-particles{
   border-radius: 0 0 3px 3px;
+	position:absolute;
+	top:70%;
+	left:45%;
+	z-index: 9;
 }
 
 
