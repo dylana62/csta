@@ -1,4 +1,5 @@
-# customer information
+# credit and citation
+Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to create the interactive header background
 
 
 # Product Name
