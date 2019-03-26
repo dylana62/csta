@@ -799,8 +799,10 @@ h1, h2, h3, h4, h5, h6 {
 .button-area {
   background: #fff;
 }
-
-.button-area .border-top-generic {
+.button-area .border-top-resource {
+  padding: 70px 15px;
+  border-top: 1px dotted #eee;
+}.button-area .border-top-generic {
   padding: 70px 15px;
   border-top: 1px dotted #eee;
 }
@@ -1890,6 +1892,9 @@ nav {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   transform-origin: 100% 50%;
+  position: absolute;
+  right: 10%;
+  display: inline;
 }
 
 @media (max-width: 767px) {
@@ -1902,26 +1907,46 @@ nav {
     padding: 20px 0;
     z-index: 5;
     background: #fff;
+    width: 700px;
   }
 }
 
 @media (max-width: 767px) {
   nav.hide {
-    position:absolute;
     transform: scale(0);
-    margin: 0;
-    width: 50%
   }
 }
 
 nav a {
-  font-size: 12px;
+  right: 20%;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   color: #777777;
-  margin: 0 0px;
-  display: inline-block;
-  width: 60%;
+  display: inline;
+  width: 500px;
+}
+#about{
+  position: absolute;
+  left: 500px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+#calendar{
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+#resources{
+  position: absolute;
+  left: 10%;
+
+}
+#log-in{
+  position: absolute;
+right: 60%;
 }
 
 @media (max-width: 767px) {
