@@ -392,6 +392,8 @@
     onDestroy: function() {}
   };
 
+
+
   // nothing wrong with hooking into jQuery if it's there...
   if ($) {
     $.fn[pluginName] = function(options) {
