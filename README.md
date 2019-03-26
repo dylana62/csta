@@ -10,7 +10,7 @@ Aidyn Morris and Dylan Armstrong
 Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to create the interactive header background
 
 ## Status
-  * 
+  *
 
 ## Release History
 
@@ -44,3 +44,11 @@ Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to 
 5. About (own page) with placeholder
 6. Fill whitespace
 7. Facebook & twitter link to csta fb and twitter
+
+3-26-2019
+1. Bigger cards
+2. links
+3. Add testimonials
+4. Delete contact
+5. Link to social media
+6. Pictures
