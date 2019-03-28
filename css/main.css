@@ -2596,11 +2596,9 @@ body {
 }
 
 .footer-area {
-  background: white;
   padding: 100px 0;
   margin-bottom: 6rem;
   border: solid gray 9px;
-  color: white;
 }
 
 @media (max-width: 767px) {
@@ -2612,16 +2610,17 @@ body {
 .footer-area .footer-content {
   position: relative;
   z-index: 2;
+  color: white;
 }
 
 .footer-area .footer-menu a {
   display: inline-block;
   margin: 0 20px;
-  color: black;
+  color: white;
 }
 
 .footer-area .footer-menu a:hover {
-  color: black;
+  color: white;
 }
 
 .footer-area .footer-social {
@@ -2635,7 +2634,7 @@ body {
 }
 
 .footer-area .footer-social a i {
-  color:black;
+  color:white;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2643,7 +2642,7 @@ body {
 }
 
 .footer-area .footer-social a:hover i {
-  color: #011a27;
+  color: gray;
 }
 
 .footer-area .copy-right-text {
