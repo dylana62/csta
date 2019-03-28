@@ -10,7 +10,12 @@ Aidyn Morris and Dylan Armstrong
 Thank you to Vincent Garreau, the creator of the HTML, CSS, and JS code used to create the interactive header background
 
 ## Status
-  *
+  * need to add the linking to other pages of the website (and other pages of the CSTA website) through online navigation
+  * modify newsletter section
+  * possibly remove the testimonial area, or find a use for it and change it
+  * add facebook icon
+  * remove original icons only leave desired remaining icons
+  * add summary paragraph in navigation area
 
 ## Release History
 

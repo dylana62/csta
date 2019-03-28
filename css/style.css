@@ -102,6 +102,17 @@ canvas{
 		margin-top: 80px;
 		letter-spacing: normal;
 	}
+	#sign_up
+	{
+		position: absolute;
+		color: white;
+		border: solid white 10px;
+		background-color: transparent;
+		border-radius: 80px;
+		width: 450px;
+		height: 80px;
+		right: 5;
+	}
 
 }
 
