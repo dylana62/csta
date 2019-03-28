@@ -2600,6 +2600,7 @@ body {
   padding: 100px 0;
   margin-bottom: 6rem;
   border: solid gray 9px;
+  color: white;
 }
 
 @media (max-width: 767px) {
