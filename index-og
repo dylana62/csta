@@ -33,15 +33,17 @@
   <link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body>
+
 		<div class="main-wrapper-first">
 			<header>
 				<div class="container">
-
+					<div class="header-wrap">
 
 						<div class="header-top d-flex justify-content-between align-items-center">
-							<image src = "C:\Users\775350\Pictures\CSTA logo.png" class = "pic"></image><!--logo-->
-
-							</div>
+							<div class="logo">
+								<image src = "C:\Users\775350\Pictures\CSTA logo.png" class = "pic"></image>
+								<!--logo goes here-->
+								</div>
 							<div class="main-menubar d-flex align-items-center">
 								<nav class="hide">
 									<a href="index.html">About</a>
@@ -49,36 +51,31 @@
 									<a href="resource.html">Resources</a>
 									<a href="elements.html">Log In</a>
 								</nav>
+								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
 							</div>
-
-
+						</div>
 					</div>
+				</div>
 
 			</header>
 		</div>
-		<div id="large-header" class="large-header">
-			 <canvas id="demo-canvas"></canvas>
-			 <div class="banner-content">
-				 <div id="particles-js"></div>
-				 <script src="css/particles.js"></script>
-				 <script src="css/app.js"></script>
-		</div>
-	</div>
-		<div id = "title_page">
-		<h1>EMPOWER</h1><br />
-		<h1>ENGAGE</h1><br />
-		<h1>ADVOCATE</h1>
-		<h2 id = "small">Join the community of North Virginia computer science teachers working to give kids access to the future</h2>
-	 <span class = "button-pos"><button id = "sign_up"><a href="#" id ="font_white">SIGN UP</a></button></span>
- </div>
-
-
 
 		<div class="container demo">
 			<div class = "banner-area">
    		<div class="content">
+      <div id="large-header" class="large-header">
+         <canvas id="demo-canvas"></canvas>
+				 <div class="banner-content">
+
+					 <div id="particles-js"></div>
+					 <script src="css/particles.js"></script>
+					 <script src="css/app.js"></script>
+
+				 </div>
+				</div>
       </div>
    </div>
+if(dev.isBored || job.)
 </div>
 </div>
 		<div class="main-wrapper">
@@ -234,11 +231,11 @@
 
   gtag('config', 'UA-23581568-13');
 </script>
-<!--<div class="banner-content">
+<div class="banner-content">
 	<div class="count-particles">
 		<span class="js-count-particles"></span><br /><br /><br /><br /><br />EMPOWER<br /><br /><br /><br /><br /><br /><br /><br />ENGAGE<br /><br /><br /><br /><br /><br /><br /><br />ADVOCATE<br /><br /><br /><br /><span id = "small">Join the community of North Virginia computer science teachers working to give kids access to the future</span>
 		<span class = "button-pos"><button id = "sign_up"><a href="#" id ="font_white">SIGN UP</a></button></span>
-	</div>-->
+		</div>
 	<div id="particles-js"></div>
 	<script src="css/particles.js"></script>
 	<script src="css/app.js"></script>

@@ -175,15 +175,6 @@ td, th {
 >>>>>>> e4813e062abe1ad706e780fd332d56fad761e061
 }
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 .clear::before, .clear::after {
   content: " ";
   display: inline;
@@ -724,7 +715,10 @@ td, th {
 }
 
 .container.fullwidth {
-  width: 100%;
+  width: 0%;
+  z-index: 1;
+  height: 0%;
+  background-color: transparent;
 }
 
 .container.no-padding {
@@ -759,6 +753,7 @@ td, th {
 .text-heading {
   margin-bottom: 30px;
   font-size: 24px;
+  background-color: transparent;
 }
 
 b, i, sup, sub, u, del {
@@ -1078,7 +1073,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .progress-table .percentage {
   width: 40.36%;
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 .progress-table .table-head {
@@ -1090,6 +1085,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 500;
+  background-color: transparent;
 }
 
 .progress-table .table-row {
@@ -1853,19 +1849,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-wrap {
   position: relative;
+  background-color: transparent;
 }
 
 header {
-  background: #fff;
+  background: transparent;
 }
 
 .header-top {
-  padding: 30px 0;
+  height: 2px;
 }
 
 @media (max-width: 767px) {
   .header-top {
-    padding: 15px 0;
+    padding: 2px 0;
   }
 }
 
@@ -1876,15 +1873,17 @@ header {
 }
 
 .menu-bar span {
-  color: #222222;
+
   font-size: 24px;
+  background-color: transparent;
 }
 
 .main-menubar {
   position: absolute;
   right: 0%;
   padding-right: 1%;
-  margin: 50px;
+  margin: 10px;
+  background-color: transparent;
 }
 nav {
   margin-right: 2px;
@@ -1908,15 +1907,18 @@ nav {
     top: 47px;
     text-align: right;
     padding: 20px 0;
-    z-index: 5;
+    z-index: 2;
     background: #fff;
     width: 700px;
   }
 }
 
 @media (max-width: 767px) {
-  nav.hide {
+  nav.hide {=
     transform: scale(0);
+    display: inline-block;
+    background-color: transparent;
+    z-index: 2;
   }
 }
 
@@ -1924,7 +1926,7 @@ nav a {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #777777;
+  color: white;
   display: inline;
   width: 500px;
 }
@@ -1946,7 +1948,7 @@ body {
 .main-wrapper-first {
   width: 68.75%;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 3rem;
 
 }
 
@@ -2047,83 +2049,80 @@ body {
   color: #fff;
 }
 
-/*.banner-area {
-  background: #3F607F;
-}
-
-.banner-area .height {
-  min-height: 500px;
-}
-
-@media (max-width: 991px) {
-  .banner-area .height {
-    height: 600px;
-  }
-}
-
-.banner-area .generic-height {
-  height: 300px;
-}
-
-.banner-area .banner-content h1 {
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #ffffff;
-  text-shadow: 0px 10px 11px rgba(200, 200, 200, 0.2);
-}
-
-@media (max-width: 991px) {
-  .banner-area .banner-content h1 br {
-    display: none;
-  }
-}
-
-.banner-video {
-  position: relative;
-  min-height: 300px;
-  background: url(../img/video-bg.jpg) no-repeat center center/cover;
-  box-shadow: 0.872px 9.962px 30px 0px rgba(0, 0, 0, 0.3);
-}
-
-.banner-video .overlay-bg {
-  background: rgba(141, 218, 6, 0.75);
-}
-
-.banner-video .play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}*/
 .banner-area{
   font-weight: 600;
   margin-bottom: 20px;
   color: #8dda06;
   text-shadow: 0px 10px 11px rgba(102, 158, 2, 0.3);
+  background-color: transparent;
 }
 .banner-area .banner-content h1 {
   font-weight: 600;
   margin-bottom: 20px;
   color: white;
-  width: 2000px;
+  width: 0px;
   text-shadow: 0px 10px 11px rgba(102, 158, 2, 0.3);
   display: inline;
-  z-index: 8;
+  z-index: 2;
+  height: 0px;
 }
 .large-header {
    position: relative;
-   width: 100%;
-   background: #111;
    background-color: transparent;
    overflow: hidden;
-   background-size: cover;
+   background-size:cover;
    background-position: center center;
-   z-index: 1;
+   height: 95%;
 }
-/*.demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-}*/
+#title_page{
+  background-color: transparent;
+}
+#title_page h1{
+  position: relative;
+  width: 80px;
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  text-indent: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 50px;
+  line-height: 50px;
+  margin-top: 60px;
+  left:12%;
+  top:80px;
+}
+#small{
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 27px;
+  text-align: left;
+  text-indent: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 20px;
+  margin-top: 50px;
+  left: 12%;
+  top: 80px;
+  background-color: transparent;
+}
+.button-pos{
+  position: absolute;
+  bottom: 70%;
+  width: 1000px;
+  right:1000px;
+  left: 650px;
+  background-color: transparent;
+}
+#sign_up{
+  width: 550px;
+  height: 100px;
+  border-radius: 48%;
+  border: solid 10px white;
+  background-color: transparent;
+}
 
 .main-title {
    position: absolute;
@@ -2561,6 +2560,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
+  background-color: transparent;
 }
 
 .subscription .info {
@@ -2570,6 +2570,7 @@ body {
   transform: translateX(-50%);
   color: #fff;
   font-size: 12px;
+  background-color: transparent;
 }
 
 .subscription .info.valid {
