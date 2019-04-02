@@ -65,6 +65,7 @@ canvas{
   font-weight: bold;
 
 	letter-spacing: 35px;
+	z-index: -1;
 }
 
 
@@ -85,7 +86,7 @@ canvas{
 	position:absolute;
 	top:45%;
 	left:15%;
-	z-index: 9;
+	z-index: 0;
 }
 
 
